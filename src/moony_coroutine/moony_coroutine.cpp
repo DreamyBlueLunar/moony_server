@@ -1,4 +1,4 @@
-#include "moony_coroutine.h"
+#include "../../include/moony_coroutine/moony_coroutine.h"
 
 pthread_key_t global_sched_key;
 static pthread_once_t sched_key_once = PTHREAD_ONCE_INIT;

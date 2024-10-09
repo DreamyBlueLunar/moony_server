@@ -40,7 +40,7 @@
 #define PORT_CNT 			20
 
 #if ENABLE_MOONY
-#include "moony_coroutine.h"
+#include "../../include/moony_coroutine/moony_coroutine.h"
 
 #define MAX_BUFFER_LENGTH	1024
 #endif

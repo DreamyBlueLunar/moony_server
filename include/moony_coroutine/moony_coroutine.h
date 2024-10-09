@@ -28,8 +28,8 @@
 
 #include <cerrno>
 
-#include "../moony_queue/moony_queue.h"
-#include "../moony_tree/moony_red_black_tree.h"
+#include "moony_queue.h"
+#include "moony_red_black_tree.h"
 
 #define MOONY_MAX_EVENTS		(1024 * 1024)
 #define MOONY_MAX_STACKSIZE	    (128 * 1024) // {http: 16*1024, tcp: 4*1024}
